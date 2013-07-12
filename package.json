@@ -1,0 +1,22 @@
+{
+  "name": "abqdata-kml2geojson-transit",
+  "version": "0.0.1",
+  "description": "Converts KML data from ABQData to equivalent GeoJSON",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "TODO"
+  },
+  "keywords": [
+    "kml",
+    "geojson",
+    "abq",
+    "abqdata",
+    "transit"
+  ],
+  "author": "Jose V. Trigueros",
+  "license": "BSD"
+}

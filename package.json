@@ -2,7 +2,7 @@
   "name": "abqdata-kml2geojson-transit",
   "version": "0.0.1",
   "description": "Converts KML data from ABQData to equivalent GeoJSON",
-  "main": "app.js",
+  "main": "kml2geojson.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,8 @@
     "transit"
   ],
   "author": "Jose V. Trigueros",
-  "license": "BSD"
+  "license": "TDB",
+  "dependencies": {
+    "xml2js": "~0.2.8"
+  }
 }

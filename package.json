@@ -4,7 +4,7 @@
   "description": "Converts KML data from ABQData to equivalent GeoJSON",
   "main": "kml2geojson.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R spec"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,9 @@
   "author": "Jose V. Trigueros",
   "license": "TDB",
   "dependencies": {
-    "xml2js": "~0.2.8"
+    "xml2js": "~0.2.8",
+    "request": "~2.22.0",
+    "should": "~1.2.2",
+    "superagent": "~0.15.4"
   }
 }

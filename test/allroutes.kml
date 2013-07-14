@@ -1,0 +1,1307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Name>All Routes</Name>
+    <Style id="NoDir">
+      <BalloonStyle>
+        <bgColor>ffffff</bgColor>
+        <text><![CDATA[
+          <font color="000000"><h2>$[name]</h2></font>
+          <font>$[description]</font>
+        ]]></text>
+      </BalloonStyle>
+    </Style>
+    <Placemark>
+      <name>1</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>752</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>4.3 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:59 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Juan Tabo @ Central scheduled at 11:02 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>227</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.5164,35.06726</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>10</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>731</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>0.0 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:53 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>2nd @ Marquette scheduled at 11:05 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>13</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.6492,35.08414</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>726</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>21.7 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:53 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Lomas @ Utah scheduled at 11:04 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>89</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.5556,35.0872</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>736</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>0.0 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:49 AM</td>
+          </tr>
+          <tr>
+            <td>Deadhead       </td>
+            <td>Next stop is A.T.C.  (Bay D) scheduled at 11:17 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>174</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.6475,35.08352</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>754</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>39.1 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:51 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Lomas @ Wyoming scheduled at 11:05 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>269</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.5419,35.08783</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>141</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>749</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>0.0 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:55 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>San Mateo @ San Mateo Ln. scheduled at 11:03 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>180</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.5866,35.13648</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>141</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>739</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>0.0 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:57 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>San Mateo @ Gibson scheduled at 11:01 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>302</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.5862,35.05817</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>155</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>701</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>36.7 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:58 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Coors @ Montaño scheduled at 11:03 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>56</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.6878,35.14811</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>155</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>744</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>29.8 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:55 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Corrales @ Coors  scheduled at 10:58 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>205</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.6522,35.19701</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>157</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>746</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>23.0 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:04:00 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Louisiana @ Constitution scheduled at 11:06 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>179</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.5689,35.09746</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>157</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>714</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>14.9 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:55 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Ellison @ Cibola Loop West scheduled at 11:06 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>75</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.6593,35.20622</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>157</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>756</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>0.0 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:54 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Americas Parkway @ Louisiana scheduled at 10:59 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>269</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.5685,35.10193</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>1618</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>753</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>0.0 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:55 AM</td>
+          </tr>
+          <tr>
+            <td>Deadhead       </td>
+            <td>Next stop is Kentucky @ Gibson scheduled at 11:10 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>28</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.5699,35.05853</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>1618</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>711</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>14.9 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:58 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Williams @ Thaxton scheduled at 11:01 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>190</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.6496,35.06306</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>66</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>720</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>13.7 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:55 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Central @ Ash scheduled at 11:00 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>276</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.6273,35.08148</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>66</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>719</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>0.0 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:50 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Wenonah @ Dorado scheduled at 11:09 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>262</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.4988,35.06592</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>66</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>709</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>8.7 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:57 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Central @ Columbia scheduled at 10:52 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>96</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.5447,35.07317</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>66</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>708</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>0.0 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:54 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Central @ Rio Grande scheduled at 11:07 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>94</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.6716,35.09506</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>66</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>722</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>0.0 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:50 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Central @ 63rd scheduled at 11:07 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>258</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.7048,35.08133</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>66</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>723</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>3.1 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:59 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Central @ San Pedro scheduled at 11:03 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>276</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.575,35.0767</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>66</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>710</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>19.3 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:55 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Wenonah @ Tramway scheduled at 11:08 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>95</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.499,35.06822</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>66</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>755</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>18.0 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:50 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Central @ Cornell scheduled at 11:06 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>90</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.6216,35.08091</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>198</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>704</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>15.5 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:56 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>CUTC Bay A scheduled at 11:05 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>76</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.7252,35.07648</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>198</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>716</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>0.6 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:58 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>98th @ Benevides scheduled at 11:04 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>168</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.7407,35.05511</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>66</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>730</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>36.7 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:50 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Central @ Garcia scheduled at 11:04 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>276</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.5376,35.0726</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>2</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>725</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>15.5 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:54 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Eubank @ La Entrada scheduled at 10:56 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>175</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.5326,35.06931</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>31</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>703</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>24.9 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:55 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Wyoming @ Claremont scheduled at 11:01 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>179</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.551,35.11466</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>5</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>732</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>14.9 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:53 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Lomas @ Oak scheduled at 11:06 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>270</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.6337,35.0921</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>5</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>740</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>0.0 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:59 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Montgomery @ Tramway scheduled at 11:10 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>318</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.4969,35.12994</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>8</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>750</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>24.9 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:49 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Menaul @ 2nd scheduled at 11:01 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>101</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.6454,35.1106</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>5</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>707</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>24.9 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:30 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Montgomery @ Pennsylvania scheduled at 11:04 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>89</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.5605,35.13064</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>8</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>757</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>0.0 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:49 AM</td>
+          </tr>
+          <tr>
+            <td>Deadhead       </td>
+            <td>Next stop is A.T.C.  (Bay G) scheduled at 11:10 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>201</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.6476,35.083</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>8</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>758</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>0.0 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:49 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Louisiana @ Coronado Center scheduled at 11:03 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>268</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.5686,35.10914</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>766</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>6410</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>16.8 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:58 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>U.T.C. Rapid Ride Bay scheduled at 11:06 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>265</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.5675,35.10197</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>766</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>6409</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>0.0 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:54 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Central @ Tingley (Rapid) scheduled at 11:07 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>68</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.6849,35.08569</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>766</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>6407</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>28.6 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:47 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Central @ Mulberry (Rapid) scheduled at 11:06 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>275</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.6253,35.08124</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>777</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>6411</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>3.1 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:58 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Central @ Eubank (Rapid) scheduled at 11:04 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>276</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.532,35.07199</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>777</name>
+      <description>
+        <table border="1" width="200" bgcolor="ffffff" cellspacing="0">
+          <tr>
+            <td width="35%">Vehicle #</td>
+            <td>6604</td>
+          </tr>
+          <tr>
+            <td>Speed</td>
+            <td>15.5 MPH</td>
+          </tr>
+          <tr>
+            <td>Msg Time</td>
+            <td>11:03:52 AM</td>
+          </tr>
+          <tr>
+            <td>Next Stop      </td>
+            <td>Central @ Cedar (Rapid) scheduled at 11:00 AM</td>
+          </tr>
+        </table>
+      </description>
+      <styleUrl>#NoDir</styleUrl>
+      <Style>
+        <IconStyle>
+          <heading>98</heading>
+          <scale>0.7</scale>
+          <Icon><href>http://data.cabq.gov/transit/realtime/image/busod.jpg</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-106.6363,35.08252</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

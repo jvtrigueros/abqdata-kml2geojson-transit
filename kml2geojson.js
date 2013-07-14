@@ -19,7 +19,7 @@ exports.kml2geojson = function kml2geojson(kmlString, callback) {
       try {
         var busRoutes = result.document.placemark
         var geoJsonRoutes = []
-        if (!busRoutes) {
+        if (busRoutes) {
           busRoutes.forEach(function (route) {
             var currentRoute = { type : 'Feature'
                                , properties : { route : route.name
@@ -54,9 +54,3 @@ exports.kml2geojson = function kml2geojson(kmlString, callback) {
       }
     })
 }
-
-// TODO: Convert this into a test of some sort
-/*fs.readFile(__dirname + '/test/allroutes.kml', function(err, kmlString) {
-  kml2geojson(kmlString, console.log)
-})*/
-

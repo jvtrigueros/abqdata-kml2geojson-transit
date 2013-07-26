@@ -1,0 +1,6 @@
+runtime 'node'
+exec 's3-uploader.js'
+dir './node_modules'
+file './package.json'
+file './config.json'
+file './kml2geojson.js'

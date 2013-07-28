@@ -14,7 +14,7 @@ var parser = new xml2js.Parser(
   }
 )
 
-exports.kml2geojson = function kml2geojson(kmlString, callback) {
+exports.convertTransit = function convertTransit(kmlString, callback) {
     parser.parseString(kmlString, function(err, result) {
       try {
         var busRoutes = result.document.placemark

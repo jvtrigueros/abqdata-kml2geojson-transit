@@ -5,7 +5,7 @@ var nconf = require('nconf').file({file: __dirname + '/config.json'})
   , AWS = require('aws-sdk')
   , fs = require('fs')
   , request = require('request')
-  , kml2geojson = require('./kml2geojson').kml2geojson
+  , kml2geojson = require('./kml2geojson')
 
 
 // Figure out where the configuration file is, and get the index
@@ -33,7 +33,7 @@ fs.readFile(process.argv[payloadIdx], 'ascii', function(err, payload) {
 
 function upload(s3, s3Object) {
   request(nconf.get('RouteBaseUrl') + nconf.get('Route'), function(err,res,body) {
-    kml2geojson(body, function(err,jsonRoute) {
+    kml2geojson.convertTransit(body, function(err,jsonRoute) {
       s3Object.Body = JSON.stringify(jsonRoute)
 
       s3.putObject(s3Object,function(err) {

@@ -3,25 +3,16 @@
  */
 var nconf = require('nconf').file({file: __dirname + '/config.json'})
   , AWS = require('aws-sdk')
-  , fs = require('fs')
   , request = require('request')
   , kml2geojson = require('./kml2geojson')
-
-
-// Figure out where the configuration file is, and get the index
-var payloadIdx = -1
-process.argv.forEach( function(val, idx) {
-  if ( val == '-payload' )
-    payloadIdx = idx + 1
-})
+  , ironio = require('./ironio-payload-config')
 
 // Use that index to read the file, and set the AWS configuration.
-fs.readFile(process.argv[payloadIdx], 'ascii', function(err, payload) {
-  var awsKey = JSON.parse(payload)
+ironio.loadPayload(function(payload) {
   AWS.config.update({
-    accessKeyId: awsKey.access,
-    secretAccessKey:awsKey.secretaccess,
-    region: awsKey.region
+    accessKeyId: payload.access,
+    secretAccessKey:payload.secretaccess,
+    region: payload.region
   })
 
   // Read the S3 Options and create JSON object to store these

@@ -24,6 +24,7 @@
     "request": "~2.22.0",
     "should": "~1.2.2",
     "superagent": "~0.15.4",
-    "nconf": "~0.6.7"
+    "nconf": "~0.6.7",
+    "node-ironio": "~0.3.1"
   }
 }

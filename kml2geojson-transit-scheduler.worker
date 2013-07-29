@@ -1,0 +1,5 @@
+runtime 'node'
+exec 's3-scheduler.js'
+dir './node_modules'
+file './package.json'
+file './ironio-payload-config.js'

@@ -12,9 +12,7 @@ exports.loadPayload = function loadPayload(cb) {
   })
 
   fs.readFile(process.argv[payloadIdx], 'ascii', function(err, payload) {
-    if( !err )
-      cb(JSON.parse(payload))
-    else
-      console.log("Error occurred reading payload file : " + err)
+    if( !err )cb(JSON.parse(payload))
+    else console.log("Error occurred reading payload file : " + err)
   })
 }

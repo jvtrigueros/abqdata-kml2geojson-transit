@@ -5,9 +5,11 @@
  */
 var ironioHelper = require('./ironio-payload-config')
   , ironio = require('node-ironio')
+  , moment = require('moment')
 
-var endTime = 22 // 10pm
-var startTime = 6 // 6am
+var now = moment()
+var endTime = moment().hours(23).minutes(0).seconds(0) // 10pm
+var startTime = moment().add('days',1).hours(6).minutes(0).seconds(0) // 6am
 
 var taskIntervalRate = 15 // seconds
 var scheduleIntervalRate = 300 // seconds or 5 mins
@@ -16,31 +18,42 @@ ironioHelper.loadPayload( function(payload) {
   var body = { payload : JSON.stringify(payload)  }
   var project = ironio(payload.token).projects(payload.project_id)
 
-  // TODO: Check if the current time schedule is a valid one
-  var time = new Date()
-  if( time.getHours() > endTime || time.getHours() < startTime ) {
+  if( now.isAfter(endTime) || now.isBefore(startTime) ) {
     body.code_name = 'kml2geojson-transit-scheduler'
-    body.delay = 8 * 60 * 60 // 6am
-    project.tasks.scheduled.list(function(err, res) {
-      console.log(res)
-      // replace info with cancel, but then we should be able to schedule it again
-      project.tasks.scheduled.info(res.schedules[0].id, function(innerErr, innerRes) {
-        console.log(innerRes)
-      })
-    })
-/*    project.tasks.queue(body, function(err) {
-      if( err ) console.log(err)
-    })*/
+    rescheduler(body, project)
   } else {
     body.code_name = 'kml2geojson-transit-uploader'
     var range = Array.apply(null, {length: scheduleIntervalRate/taskIntervalRate}).map(Number.call, Number)
     range.forEach( function(index) {
       body.delay = index * taskIntervalRate
-      console.log(body.delay)
-      /*project.tasks.queue(body, function(err) {
-        if( err ) console.log(err)
-      })*/
+      project.tasks.queue(body, function(err) {
+        if( err ) console.log('Error queueing :' + JSON.stringify(err))
+      })
     })
   }
 })
 
+function rescheduler(body, project) {
+  var tasks = project.tasks
+  body.run_every = scheduleIntervalRate
+  body.start_at = startTime.toISOString()
+
+  // Find out if the task is running, cancel it if it is.
+  // Then proceed to schedule the next task the following morning.
+  tasks.scheduled.list(function(err,res) {
+    if(err) console.log('Error listing :'+ JSON.stringify(err))
+    else {
+      res.schedules.forEach( function(schedule) {
+        if(schedule.code_name === body.code_name )
+          tasks.scheduled.cancel(schedule.id, function (cErr ) {
+            if( cErr ) console.log( 'Error Cancelling :' + JSON.stringify(cErr) )
+          })
+      })
+
+      // Schedule new task in the future
+      tasks.schedule(body, function( err ) {
+        if( err ) console.log('Error Scheduling :' + JSON.stringify(err))
+      })
+    }
+  })
+}

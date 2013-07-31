@@ -23,6 +23,7 @@ ironioHelper.loadPayload( function(payload) {
     rescheduler(body, project)
   } else {
     body.code_name = 'kml2geojson-transit-uploader'
+    body.priority = 2
     var range = Array.apply(null, {length: scheduleIntervalRate/taskIntervalRate}).map(Number.call, Number)
     range.forEach( function(index) {
       body.delay = index * taskIntervalRate

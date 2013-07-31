@@ -25,6 +25,7 @@
     "should": "~1.2.2",
     "superagent": "~0.15.4",
     "nconf": "~0.6.7",
-    "node-ironio": "git://github.com/christofmuc/node-ironio.git"
+    "node-ironio": "git://github.com/christofmuc/node-ironio.git",
+    "moment": "~2.1.0"
   }
 }

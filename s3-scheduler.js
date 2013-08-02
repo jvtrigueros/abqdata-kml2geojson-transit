@@ -7,8 +7,8 @@ var ironioHelper = require('./ironio-payload-config')
   , ironio = require('node-ironio')
   , moment = require('moment')
 
-var now = moment()
-var endTime = moment().hours(23).minutes(0).seconds(0) // 10pm
+var now =       moment()
+var endTime =   moment().hours(22).minutes(0).seconds(0) // 10pm
 var startTime = moment().add('days',1).hours(6).minutes(0).seconds(0) // 6am
 
 var taskIntervalRate = 15 // seconds
@@ -18,9 +18,9 @@ ironioHelper.loadPayload( function(payload) {
   var body = { payload : JSON.stringify(payload)  }
   var project = ironio(payload.token).projects(payload.project_id)
 
-  if( now.isAfter(endTime) || now.isBefore(startTime) ) {
-    body.code_name = 'kml2geojson-transit-scheduler'
-    rescheduler(body, project)
+  if( now.isAfter(endTime) && now.isBefore(startTime) ) {
+    console.log('Rescheduling for tomorrow @ ' + startTime.toLocaleString())
+    rescheduler(body, project,startTime.toISOString())
   } else {
     body.code_name = 'kml2geojson-transit-uploader'
     body.priority = 2
@@ -31,13 +31,19 @@ ironioHelper.loadPayload( function(payload) {
         if( err ) console.log('Error queueing :' + JSON.stringify(err))
       })
     })
+
+    var nextStart = moment(now).add('minutes',5)
+    console.log('Rescheduling in 5 mins @ ' + nextStart.toLocaleString())
+    rescheduler(body, project, nextStart.toISOString())
   }
 })
 
-function rescheduler(body, project) {
+function rescheduler(body, project, startTime) {
   var tasks = project.tasks
-  body.run_every = scheduleIntervalRate
-  body.start_at = startTime.toISOString()
+  body.priority = 0
+  body.code_name = 'kml2geojson-transit-scheduler'
+//  body.run_every = scheduleIntervalRate
+  body.start_at = startTime
 
   // Find out if the task is running, cancel it if it is.
   // Then proceed to schedule the next task the following morning.

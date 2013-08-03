@@ -7,9 +7,9 @@ var ironioHelper = require('./ironio-payload-config')
   , ironio = require('node-ironio')
   , moment = require('moment')
 
-var now =       moment()
-var endTime =   moment().hours(22).minutes(0).seconds(0) // 10pm
-var startTime = moment().add('days',1).hours(6).minutes(0).seconds(0) // 6am
+var now =       moment().zone('-07:00')
+var endTime =   moment().zone('-07:00').hours(22).minutes(0).seconds(0) // 10pm
+var startTime = moment().zone('-07:00').add('days',1).hours(6).minutes(0).seconds(0) // 6am
 
 var taskIntervalRate = 15 // seconds
 var scheduleIntervalRate = 300 // seconds or 5 mins
@@ -32,7 +32,7 @@ ironioHelper.loadPayload( function(payload) {
       })
     })
 
-    var nextStart = moment(now).add('minutes',5)
+    var nextStart = moment(now).zone('-07:00').add('minutes',5)
     console.log('Rescheduling in 5 mins @ ' + nextStart.toLocaleString())
     rescheduler(body, project, nextStart.toISOString())
   }
